@@ -18,7 +18,7 @@ fields: [{
     }]
 ```
 
-** Add custom endpoint in collection
+### Add custom endpoint in collection
 ```
  endpoints: [
     {
@@ -34,7 +34,7 @@ fields: [{
 ]
 ```
 
-** Here is the get getQRCode
+### Here is the get getQRCode
 ```
 export const getQRCode = async (req, res, next) => {
   try {
@@ -69,7 +69,7 @@ export const getQRCode = async (req, res, next) => {
 };
 ```
 
-** Here is the verifyKeyCode
+### Here is the verifyKeyCode
 
 ```
 export const verifyKeyCode = async (req, res, next) => {
@@ -113,7 +113,7 @@ export const verifyKeyCode = async (req, res, next) => {
 };
 ```
 
-** Here is the checkIsMFAEnabled
+### Here is the checkIsMFAEnabled
 
 ```
 export const checkIsMFAEnabled = async (req, res, next) => {
@@ -139,7 +139,7 @@ export const checkIsMFAEnabled = async (req, res, next) => {
 };
 ```
 
-** Here is the MFAButton Custom Component
+### Here is the MFAButton Custom Component
 
 ```
 function MFAButton() {
@@ -238,7 +238,7 @@ function MFAButton() {
 export default MFAButton;
 ```
 
-** Here is user service code
+### Here is user service code
 
 ```
 export class UserService {
@@ -282,7 +282,7 @@ export class UserService {
 }
 ```
 
-** Please use the custom component for login
+### Please use the custom component for login
 
 ```
 export function Login() {
