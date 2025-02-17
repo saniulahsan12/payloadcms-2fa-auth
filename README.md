@@ -2,7 +2,7 @@
 code snippet for enabling or using 2 FA authentication with payload cms
 
 
-** Add a checkbox field and UI in a collection
+### Add a checkbox field and UI in a collection
 ```
 fields: [{
       name: 'Account',
